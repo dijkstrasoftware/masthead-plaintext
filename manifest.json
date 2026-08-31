@@ -1,0 +1,32 @@
+{
+  "name": "Plaintext",
+  "slug": "plaintext",
+  "version": "1.0.1",
+  "author": "Masthead",
+  "description": "No CSS, no JavaScript. Posts as a plain list.",
+  "tokens": [
+    {
+      "key": "padding",
+      "label": "Page padding",
+      "type": "length",
+      "default": "0 0 0 1rem",
+      "category": "Appearance"
+    },
+    {
+      "key": "max_width",
+      "label": "Max content width",
+      "type": "length",
+      "default": "1080px",
+      "category": "Appearance"
+    },
+    {
+      "key": "justification",
+      "label": "Text justification",
+      "type": "select",
+      "options": ["left", "center", "right", "justify"],
+      "default": "left",
+      "category": "Appearance"
+    }
+  ],
+  "metadata": []
+}

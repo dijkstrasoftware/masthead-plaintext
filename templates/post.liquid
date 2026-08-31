@@ -1,0 +1,6 @@
+<article>
+  <h1>{{ post.title | escape }}</h1>
+  {% if post.published_at %}<time datetime="{{ post.published_at | iso8601 }}">{{ post.published_at | strftime: "%B %-d, %Y" }}</time>{% endif %}
+  {{ body_html }}
+  <p><a href="/">&larr; {{ site.name | escape }}</a></p>
+</article>
